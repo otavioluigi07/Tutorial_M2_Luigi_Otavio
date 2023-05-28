@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CurrículoPessoal</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
-
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
         <div class = "Logo"><img id = "inteli" src = "inteli.png"></div>
             <ul class = "header">
-                <a href="#conquistas">CONQUISTAS |&nbsp;</a>
-                <a href="#personalidades">PERSONALIDADE |&nbsp;</a>
-                <a href="#habilidades">HABILIDADES |&nbsp;</a>
-                <a href="#experiêcia">EXPERIÊCNIA |&nbsp;</a>
-                <a href="#formação">FORMAÇÃO&nbsp;</a>
+                <a href="#conquistas" class = "link">CONQUISTAS |&nbsp;</a>
+                <a href="#personalidades" class = "link">PERSONALIDADE |&nbsp;</a>
+                <a href="#habilidades" class = "link">HABILIDADES |&nbsp;</a>
+                <a href="#experiêcia" class = "link">EXPERIÊCNIA |&nbsp;</a>
+                <a href="#formação" class = "link">FORMAÇÃO&nbsp;</a>
                 
             </ul>
 
@@ -95,6 +95,24 @@
     </ul>
 </section>
 </div>
+<div id="meuElemento"></div>
 
+<script>
+    // Alterações com JQUERY - Eventos e ações
+    $('#container').fadeOut("3000").fadeIn("3000")
+    $('#container').fadeOut("3000").fadeIn("3000")
+    $('#container').fadeOut("3000").fadeIn("3000")
+    
+    $('*').css({'font-family':'Calibri'})
+    
+    $('.link').on('click', botao)
+    function botao(){
+        $('body').css({'background':'rgb(212, 158, 241)'})
+    }
+
+
+    
+
+</script>
 </body>
 </html>

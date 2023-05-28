@@ -4,6 +4,7 @@
   
   body {
     background: rgb(239, 230, 244);
+    
   }
   
   #container {
@@ -24,7 +25,7 @@
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 500px;
     font-size: 24px;
     font-family: Arial;
     text-align: right;
