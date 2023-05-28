@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrículoPessoal</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class = "Logo"><img id = "inteli" src = "inteli.png"></div>
+            <ul class = "header">
+                <a href="#conquistas" class = "link">CONQUISTAS |&nbsp;</a>
+                <a href="#personalidades" class = "link">PERSONALIDADE |&nbsp;</a>
+                <a href="#habilidades" class = "link">HABILIDADES |&nbsp;</a>
+                <a href="#experiêcia" class = "link">EXPERIÊCNIA |&nbsp;</a>
+                <a href="#formação" class = "link">FORMAÇÃO&nbsp;</a>
+                
+            </ul>
+
+
+
+    </header>
+
+
+<div id = "container">
+    <div id = "foto">
+        <img id = "foto" src = "luigi.jpeg" alt = "Luigi Otávio Neves Macedo">
+    </div>
+    <div id = "informacoes">
+        <h1>Luigi Otávio Neves Macedo</h1>
+        <p>Rua M.M.D.C - 80, Share Butantã <img class = "imagem" src="enredeco.png" alt="celular.png"></p>
+        <p>luigiotavio4577@gmail.com<img class = "imagem" src="email.png" alt="celular.png"></p>
+        <p>(11) 98405 - 7846<img class = "imagem" src="celular.png" alt="celular.png"></p>
+        </div>
+    </div>
+</div>
+
+
+<div id = "texto">
+<div>
+    <ul>
+        <b id = "conquistas">Conquistas</b>
+        <li>Medalha de prata em natação: </li>
+        <li>02/12/2021</li>
+        <li>Ganhei medalha de prata por ficar em 2° lugar na 
+            competição de natação da minha cidade</li>
+    </ul>
+</div><hr>
+
+<section>
+    <ul>
+        <b id = "personalidades">Personalidades</b>
+        <li>Resiliênte: </li>
+        <li>Sou uma pessoa muito resiliênte em tudo que faço. 
+            Sempre busco dar o meu melhor e estar entre os melhores.</li>
+        <li>valor Personalidade</li>
+    </ul>
+</section><hr>
+
+<section>
+    <ul>
+        <b id = "habilidades">Habilidades: </b>
+        <li>JavaScript: </li>
+        <li>Conhceimentos na linguagem de programação JavaScript</li>
+        <li>Valor da habilidade</li>
+    </ul>
+</section><hr>
+
+<section>
+    <ul id = "experiência">
+        <b>Experiência: </b>
+        <li>UX4YOU </li>
+        <li>07/01/2022</li>
+        <li>07/03/2022</li>
+        <li>Estagiário: Desenvolvedor Web e Designer</li>
+        <li>Atudei por dois meses com Desenvolvedor e Designer em uma 
+            empresa de marketing e desenvovilmento web</li>
+    </ul>
+</section><hr>
+
+<section>
+    <ul>
+        <b id = "formação">Formação: </b>
+        <li>Automação Industrial - IFSP </li>
+        <li>01/2019</li>
+        <li>12/2021</li>
+        <li>Estudei Automação Industrial por 3 anos de forma integrada ao ensino médio
+            no Instituto Federal de Ciência, Educação e Tecnologia de São Paulo
+            - Campus Suzano
+        </li>
+    </ul>
+</section>
+</div>
+<div id="meuElemento"></div>
+
+<script>
+    // Alterações com JQUERY - Eventos e ações
+    $('#container').fadeOut("3000").fadeIn("3000")
+    $('#container').fadeOut("3000").fadeIn("3000")
+    $('#container').fadeOut("3000").fadeIn("3000")
+    
+    $('*').css({'font-family':'Calibri'})
+    
+    $('.link').on('click', botao)
+    function botao(){
+        $('body').css({'background':'rgb(212, 158, 241)'})
+    }
+
+
+    
+
+</script>
+</body>
+</html>
