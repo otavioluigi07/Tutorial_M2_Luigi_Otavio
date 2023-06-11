@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CurrículoPessoal</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="..\css\estilo.css">
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
-        <div class = "Logo"><img id = "inteli" src = "inteli.png"></div>
+        <div class = "Logo"><img id = "inteli" src = "..\imagens\inteli.png"></div>
             <ul class = "header">
                 <a href="#conquistas" class = "link">CONQUISTAS |&nbsp;</a>
                 <a href="#personalidades" class = "link">PERSONALIDADE |&nbsp;</a>
@@ -28,18 +28,22 @@
 
 <div id = "container">
     <div id = "foto">
-        <img id = "foto" src = "luigi.jpeg" alt = "Luigi Otávio Neves Macedo">
+        <img id = "foto" src = "..\imagens\luigi.jpeg" alt = "Luigi Otávio Neves Macedo">
     </div>
     <div id = "informacoes">
         <h1>Luigi Otávio Neves Macedo</h1>
-        <p>Rua M.M.D.C - 80, Share Butantã <img class = "imagem" src="enredeco.png" alt="celular.png"></p>
-        <p>luigiotavio4577@gmail.com<img class = "imagem" src="email.png" alt="celular.png"></p>
-        <p>(11) 98405 - 7846<img class = "imagem" src="celular.png" alt="celular.png"></p>
+        <p>Rua M.M.D.C - 80, Share Butantã <img class = "imagem" src="..\imagens\enredeco.png" alt="celular.png"></p>
+        <p>luigiotavio4577@gmail.com<img class = "imagem" src="..\imagens\email.png" alt="celular.png"></p>
+        <p>(11) 98405 - 7846<img class = "imagem" src="..\imagens\celular.png" alt="celular.png"></p>
         </div>
     </div>
 </div>
+<form id = 'formbotao'>
+    <button class = 'botao' type = 'submit'>SURPRESA!</button>
+</form>
+<section id = "marcos">
 
-
+</section>
 <div id = "texto">
 <div>
     <ul>
@@ -97,20 +101,6 @@
 </div>
 <div id="meuElemento"></div>
 
-<script>
-
-    // Alterações com JQUERY - Eventos e ações
-    $('#container').fadeOut("3000").fadeIn("3000")
-    $('#container').fadeOut("3000").fadeIn("3000")
-    $('#container').fadeOut("3000").fadeIn("3000")
-
-    $('*').css({'font-family':'Calibri'})
-    
-    $('.link').on('click', botao)
-    function botao(){
-        $('body').css({'background':'rgb(212, 158, 241)'})
-    }
-
-</script>
+<script src = "..\scriptsjs\jquery.js"></script>
 </body>
 </html>
